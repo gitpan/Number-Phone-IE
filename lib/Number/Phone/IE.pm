@@ -10,7 +10,7 @@ use Number::Phone::IE::Data;
 
 use base 'Number::Phone';
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 $Number::Phone::subclasses{country_code()} = __PACKAGE__;
 
